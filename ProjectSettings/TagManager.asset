@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Slow
+  - Blocker
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Car
+  - Zombie
+  - Signal
+  - Sensor
+  - Road End
+  - Slow
+  - Blocker
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: bg
+    uniqueID: 3773760109
+    locked: 0
+  - name: road
+    uniqueID: 646011395
+    locked: 0
+  - name: car
+    uniqueID: 2408687235
+    locked: 0
+  - name: zomb
+    uniqueID: 987600411
+    locked: 0
+  - name: tower
+    uniqueID: 3515398483
+    locked: 0
+  - name: fg
+    uniqueID: 1143476355
+    locked: 0
+  - name: ui
+    uniqueID: 3331024897
+    locked: 0

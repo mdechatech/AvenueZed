@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5c703dc3821b342bec86b14610d2ec, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  Data:
+  - CarGoal: 5
+    TimeGoal: 60
+    StartMoney: 20
+    Rows: 1
+    Cols: 1
+    Turns: 0
+    WaveAmtStart: 10
+    WaveAmtGrowth: 5
+    WaveFreqStart: 1
+    WaveFreqGrowth: 0.3
+    WaveSpeedStart: 0.3
+    WaveSpeedGrowth: 0.05
+    WaveDelay: 20
+  - CarGoal: 30
+    TimeGoal: 40
+    StartMoney: 25
+    Rows: 1
+    Cols: 1
+    Turns: 2
+    WaveAmtStart: 11
+    WaveAmtGrowth: 6
+    WaveFreqStart: 1.2
+    WaveFreqGrowth: 0.3
+    WaveSpeedStart: 0.3
+    WaveSpeedGrowth: 0.05
+    WaveDelay: 10
+  - CarGoal: 40
+    TimeGoal: 40
+    StartMoney: 30
+    Rows: 2
+    Cols: 1
+    Turns: 2
+    WaveAmtStart: 12
+    WaveAmtGrowth: 7
+    WaveFreqStart: 1.2
+    WaveFreqGrowth: 0.3
+    WaveSpeedStart: 0.3
+    WaveSpeedGrowth: 0.05
+    WaveDelay: 10
+  - CarGoal: 40
+    TimeGoal: 35
+    StartMoney: 35
+    Rows: 1
+    Cols: 2
+    Turns: 2
+    WaveAmtStart: 12
+    WaveAmtGrowth: 8
+    WaveFreqStart: 1.2
+    WaveFreqGrowth: 0.3
+    WaveSpeedStart: 0.3
+    WaveSpeedGrowth: 0.05
+    WaveDelay: 10
+  - CarGoal: 45
+    TimeGoal: 30
+    StartMoney: 40
+    Rows: 2
+    Cols: 2
+    Turns: 3
+    WaveAmtStart: 12
+    WaveAmtGrowth: 10
+    WaveFreqStart: 1.3
+    WaveFreqGrowth: 0.4
+    WaveSpeedStart: 0.3
+    WaveSpeedGrowth: 0.05
+  - CarGoal: 50
+    TimeGoal: 20
+    StartMoney: 60
+    Rows: 2
+    Cols: 3
+    Turns: 3
+    WaveAmtStart: 12
+    WaveAmtGrowth: 12
+    WaveFreqStart: 1.3
+    WaveFreqGrowth: 0.3
+    WaveSpeedStart: 0.3
+    WaveSpeedGrowth: 0.05
+    WaveDelay: 10
+  - CarGoal: 50
+    TimeGoal: 20
+    StartMoney: 50
+    Rows: 3
+    Cols: 2
+    Turns: 4
+    WaveAmtStart: 12
+    WaveAmtGrowth: 14
+    WaveFreqStart: 1.3
+    WaveFreqGrowth: 0.3
+    WaveSpeedStart: 0.3
+    WaveSpeedGrowth: 0.05
+    WaveDelay: 10
+  - CarGoal: 60
+    TimeGoal: 20
+    StartMoney: 60
+    Rows: 3
+    Cols: 3
+    Turns: 4
+    WaveAmtStart: 15
+    WaveAmtGrowth: 15
+    WaveFreqStart: 1.5
+    WaveFreqGrowth: 0.3
+    WaveSpeedStart: 0.3
+    WaveSpeedGrowth: 0.05
+    WaveDelay: 10

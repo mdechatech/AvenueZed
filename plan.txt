@@ -1,0 +1,21 @@
+TRAFFIC SIM + TOWER DEFENSE
+"Supply Side Zombies"
+"AVENUE ZED"!!!!
+
+maintain a supply chain intersection in a zombie apocalypse
+COPY: I Love Traffic, pretty much every tower defense game
+
+Gameplay 1 - turn on/off traffic lights to direct traffic
+Gameplay 2 - place towers and watch them go
+
+GOAL: level-based, pass atleast x cars and maintain y avg travel time (rolling avg of prev. x cars) within z time limit
+
+Each level is split into waves, each level represents a different city block with different road connections and zombie spawns
+
+If zombies reach the streets they may cause congestion or other adverse effects
+
+Special vehicles may give bonuses once they exit the map, causes player to think about priorities; examples:
+ - cargo truck - keeps towers supplied with ammunition
+ - transport   - worth multiple cars, reduce zombie spawnrate
+ - limousine   - extra money for building towers
+
