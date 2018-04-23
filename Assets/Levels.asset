@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Data:
   - CarGoal: 5
-    TimeGoal: 60
+    TimeGoal: 30
     StartMoney: 20
     Rows: 1
     Cols: 1
@@ -25,9 +25,9 @@ MonoBehaviour:
     WaveSpeedStart: 0.3
     WaveSpeedGrowth: 0.05
     WaveDelay: 20
-  - CarGoal: 30
-    TimeGoal: 40
-    StartMoney: 25
+  - CarGoal: 20
+    TimeGoal: 15
+    StartMoney: 20
     Rows: 1
     Cols: 1
     Turns: 2
@@ -38,9 +38,9 @@ MonoBehaviour:
     WaveSpeedStart: 0.3
     WaveSpeedGrowth: 0.05
     WaveDelay: 10
-  - CarGoal: 40
-    TimeGoal: 40
-    StartMoney: 30
+  - CarGoal: 20
+    TimeGoal: 15
+    StartMoney: 20
     Rows: 2
     Cols: 1
     Turns: 2
@@ -51,9 +51,9 @@ MonoBehaviour:
     WaveSpeedStart: 0.3
     WaveSpeedGrowth: 0.05
     WaveDelay: 10
-  - CarGoal: 40
-    TimeGoal: 35
-    StartMoney: 35
+  - CarGoal: 30
+    TimeGoal: 15
+    StartMoney: 20
     Rows: 1
     Cols: 2
     Turns: 2
@@ -64,9 +64,9 @@ MonoBehaviour:
     WaveSpeedStart: 0.3
     WaveSpeedGrowth: 0.05
     WaveDelay: 10
-  - CarGoal: 45
-    TimeGoal: 30
-    StartMoney: 40
+  - CarGoal: 30
+    TimeGoal: 20
+    StartMoney: 25
     Rows: 2
     Cols: 2
     Turns: 3
@@ -76,9 +76,9 @@ MonoBehaviour:
     WaveFreqGrowth: 0.4
     WaveSpeedStart: 0.3
     WaveSpeedGrowth: 0.05
-  - CarGoal: 50
-    TimeGoal: 20
-    StartMoney: 60
+  - CarGoal: 40
+    TimeGoal: 25
+    StartMoney: 30
     Rows: 2
     Cols: 3
     Turns: 3
@@ -89,9 +89,9 @@ MonoBehaviour:
     WaveSpeedStart: 0.3
     WaveSpeedGrowth: 0.05
     WaveDelay: 10
-  - CarGoal: 50
-    TimeGoal: 20
-    StartMoney: 50
+  - CarGoal: 40
+    TimeGoal: 25
+    StartMoney: 30
     Rows: 3
     Cols: 2
     Turns: 4
@@ -103,8 +103,8 @@ MonoBehaviour:
     WaveSpeedGrowth: 0.05
     WaveDelay: 10
   - CarGoal: 60
-    TimeGoal: 20
-    StartMoney: 60
+    TimeGoal: 25
+    StartMoney: 40
     Rows: 3
     Cols: 3
     Turns: 4

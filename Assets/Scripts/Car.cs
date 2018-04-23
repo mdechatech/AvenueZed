@@ -91,6 +91,11 @@ public class Car : MonoBehaviour
         if (_stoppers.Count > 0)
         {
             _rigidbody.velocity = Vector2.zero;
+            for (var i = _stoppers.Count - 1; i >= 0; ++i)
+            {
+                if (!_stoppers[i])
+                    _stoppers.RemoveAt(i);
+            }
         }
         else
         {

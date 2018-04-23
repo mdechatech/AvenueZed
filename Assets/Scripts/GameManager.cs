@@ -96,6 +96,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0;
         Ui.WinScreen.SetActive(true);
+        Ui.NextLevelButton.interactable = LevelIndex < Levels.Data.Length - 1;
     }
 
     public void NextLevel()
@@ -118,6 +119,9 @@ public class GameManager : MonoBehaviour
         Money = Level.StartMoney;
         CarGoal = Level.CarGoal;
         TimeGoal = Level.TimeGoal;
+        CarsFerried = 0;
+        AverageTripTime = 0;
+        TripTimes.Clear();
 
         var spawner = FindObjectOfType<EnemySpawner>();
         spawner.StartWaves();
